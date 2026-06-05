@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B2 Prüfung — Lese- & Hörverstehen, Sprachbausteine, Schreiben</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <div class="brand" id="brand-slot"></div>
+      <div id="audio-slot"></div>
+      <nav class="tabs" id="tabs"></nav>
+      <div class="meta">
+        <div class="meta-info" id="meta-info"></div>
+        <div class="meta-actions">
+          <button class="btn"><span class="ico">🏁</span> ABGABE</button>
+          <button class="btn"><span class="ico">💾</span> SPEICHERN</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== Section title bar ===== -->
+    <div class="section-bar">
+      <div id="section-title"></div>
+      <div class="module-switch" id="module-switch"></div>
+    </div>
+
+    <!-- ===== Content ===== -->
+    <main class="content">
+      <div id="content-body"></div>
+      <div class="work-footer" id="work-footer"></div>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <span class="user" id="foot-user">TEST USER</span>
+      <button class="btn-char">CHARACTERS</button>
+      <div class="meldung">
+        <span>Meldung:</span>
+        <input type="text" aria-label="Meldung">
+        <span class="foot-icons"><span>❤️</span><span>💾</span></span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

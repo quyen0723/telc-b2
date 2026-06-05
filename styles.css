@@ -49,12 +49,15 @@ html, body {
   font-family: var(--font);
   color: #1c1c1c;
   -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;            /* never let a stray wide element zoom the page out */
 }
 
 .app {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width: 100%;
 }
 
 /* ---------- Header ---------- */
